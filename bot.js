@@ -12,7 +12,7 @@ client.on('ready', () => {
 
 
 client.on('ready', () => {
-    client.user.setGame(`.. تهـآلكـت آعمـآرنـآ , ونحـن نبحـث عـن حيـآهه`,"http://twitch.tv/y04zgamer")
+    client.user.setGame(`انا مصري زغبني شهراني`,"http://twitch.tv/y04zgamer")
     client.user.setStatus("dnd")
   console.log(`Logged in as ${client.user.tag}!`);
 });
