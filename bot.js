@@ -26,7 +26,7 @@ client.user.setStatus("dnd");
 
 
 
-const devs = ["your id"];
+const devs = ["321476121956974595"];
 const adminprefix = ["xd"];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
