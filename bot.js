@@ -26,12 +26,12 @@ client.user.setStatus("dnd");
 
 
 const devs = ["323224691911163914"];
-const adminprefix = ["prefix"];
+const adminprefix = ["-"];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
       
-  if (message.content.startsWith('(prefix))ply')) {
+  if (message.content.startsWith('(prefix)ply')) {
     client.user.setGame(argresult);
       message.channel.send(`**✅   ${argresult}**`)
   } else 
