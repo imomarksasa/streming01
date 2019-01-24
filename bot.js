@@ -31,7 +31,7 @@ client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
       
-  if (message.content.startsWith('(prefix))ply')) {
+  if (message.content('ply')) {
     client.user.setGame(argresult);
       message.channel.send(`**✅   ${argresult}**`)
   } else 
