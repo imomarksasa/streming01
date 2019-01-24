@@ -4,7 +4,6 @@ const fs = require('fs');
 const moment = require('moment');
 const jimp = require('jimp');
 const Canvas = require('canvas');
- const prefix = "+";
 client.on('ready', () => {
     console.log('I am ready!');
 });
@@ -27,7 +26,7 @@ client.user.setStatus("dnd");
 
 
 const devs = ["321476121956974595"];
-const adminprefix = ["xd"];
+const adminprefix = ["+"];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
